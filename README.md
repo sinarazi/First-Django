@@ -11,13 +11,13 @@ Django web applications typically group the code that handles each of these step
 
 <img src="https://user-images.githubusercontent.com/45029937/80290189-1016f300-8759-11ea-9d47-9b1a73d3b06e.png" width="90%"></img> 
 
-### URLs: 
+#### URLs: 
 While it is possible to process requests from every single URL via a single function, it is much more maintainable to write a separate view function to handle each resource. A URL mapper is used to redirect HTTP requests to the appropriate view based on the request URL. The URL mapper can also match particular patterns of strings or digits that appear in a URL and pass these to a view function as data.
 
-### View: 
+#### View: 
 A view is a request handler function, which receives HTTP requests and returns HTTP responses. Views access the data needed to satisfy requests via models, and delegate the formatting of the response to templates.
 
-### Models: 
+#### Models: 
 Models are Python objects that define the structure of an application's data, and provide mechanisms to manage (add, modify, delete) and query records in the database. 
 
 #### Templates: 

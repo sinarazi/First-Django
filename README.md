@@ -23,5 +23,5 @@ Models are Python objects that define the structure of an application's data, an
 #### Templates: 
 A template is a text file defining the structure or layout of a file (such as an HTML Page), with placeholders used to represent actual content. A view can dynamically create an HTML page using an HTML template, populating it with data from a model. A template can be used to define the structure of any type of file; it doesn't have to be HTML!
 
-Check the website (here)[https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction].
+Check the website [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction).
 
